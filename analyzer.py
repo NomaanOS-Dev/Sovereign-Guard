@@ -1,6 +1,6 @@
 import os
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 def scan_prompt_security(api_key, prompt_text):
